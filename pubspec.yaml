@@ -1,5 +1,5 @@
 name: progress_form
-description: "A new Flutter project."
+description: "Simple form app"
 publish_to: 'none'
 version: 0.1.0
 
@@ -14,6 +14,13 @@ dependencies:
   hive: ^2.2.3
   equatable: ^2.0.5
   get_it: ^7.6.7
+  foundation:
+    path: packages/foundation   
+  go_router: ^14.2.7
+  provider: ^6.1.2
+  path_provider: ^2.1.4
+  flex_color_scheme: ^7.3.1
+  meta: ^1.12.0
 
 dev_dependencies:
   flutter_test:
@@ -23,6 +30,8 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/images/
 
 flutter_launcher_icons:
   android: true
